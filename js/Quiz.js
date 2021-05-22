@@ -43,7 +43,7 @@ if(allContestants!==undefined){
 fill("blue")
 textSize(20);
 text("*Note:contestent who answered correct are highlighted in green colour",130,230)
-for(plr in allContestants ){
+for(var plr in allContestants ){
   var correctAns="2"
   if(correctAns==allContestants[plr].answer)
   fill("green")
